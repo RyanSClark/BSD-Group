@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4{
+    line-height: 1.2;
+}
+
+a{
+    color: #444;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 40px;
+}
+
+.navbar{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.navbar .logo{
+    font-size: 20px;
+}
+
+.navbar .nav{
+    justify-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav a{
+    padding: 0 20px;
+}
+
+.navbar .nav a:hover{
+    color: plum;
+}
+
+.main-section{
+    margin: 30px 0;
+}
+
+.main-section .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.main-section h1{
+    font-size: 20px;
+    color: #444;
+}
+
+.main-section p{
+    margin: 10px 0;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 55px;
+}
+
+.btn:hover{
+    background: #777;
+}
+
